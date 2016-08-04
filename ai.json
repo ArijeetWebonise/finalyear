@@ -1,0 +1,23 @@
+{
+	"result":[
+		{
+			"reply":"Hi!",
+			"question":[
+				{"q":"Hi"},
+				{"q":"Hey"},
+				{"q":"Hello"},
+				{"q":"Hola"}
+			]
+		},
+		{
+			"reply":"Fine! n u",
+			"question":[
+				{"q":"How are You?"},
+				{"q":"How r u?"},
+				{"q":"How are u?"},
+				{"q":"How r you?"},
+				{"q":"Hru?"}
+			]
+		}
+	]
+}
