@@ -1,52 +1,15 @@
 <html>
     <head>
-        <style type="text/css">
-        * {
-            box-sizing: border-box;
-        }
-
-        	.row::after {
-            content: "";
-            clear: both;
-            display: block;
-        }
-        	[class*="col-"] {
-            float: left;
-            padding: 15px;
-        }
-        		/* For mobile phones: */
-        [class*="col-"] {
-            width: 100%;
-        }
-        #chatview{
-        	border:1px solid;
-        	height: 500px;
-        }
-        .chatinp{
-        	width:100%;
-        }
-        @media only screen and (min-width: 768px) {
-            /* For desktop: */
-            .col-1 {width: 8.33%;}
-            .col-2 {width: 16.66%;}
-            .col-3 {width: 25%;}
-            .col-4 {width: 33.33%;}
-            .col-5 {width: 41.66%;}
-            .col-6 {width: 50%;}
-            .col-7 {width: 58.33%;}
-            .col-8 {width: 66.66%;}
-            .col-9 {width: 75%;}
-            .col-10 {width: 83.33%;}
-            .col-11 {width: 91.66%;}
-            .col-12 {width: 100%;}
-        }
-        </style>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script></head>
         <script src="js/chatscript.js"></script>
     <body>
-        <section  class="row">
-        	<div class="col-8" style="overflow-y:scroll;" class="container" id="chatview">Loading</div>
-        	<div class="col-4"><input class="chatinp" type="text" name="chat"></div>
+        <header id="head">
+        	<h1>ChatBot</h1>
+        </header>
+        <section  class="row chatsection">
+        	<div class="row" style="overflow-y:scroll;" class="container" id="chatview">Loading</div>
+        	<div class="row"><input class="chatinp" type="text" name="chat"></div>
         </section>
     </body>
 </html>
