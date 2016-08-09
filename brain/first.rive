@@ -409,24 +409,24 @@
 - What do you think about machines?
 
 + am i *
-- Do you believe you are <star2>?
-- Would you want to be <star2>?
-- Do you wish I would tell you you are <star2>?
-- What would it mean if you were <star2>?
+- Do you believe you are <star>?
+- Would you want to be <star>?
+- Do you wish I would tell you you are <star>?
+- What would it mean if you were <star>?
 
 + are you *
-- Are you interested in whether I am <star2> or not?
-- Would you prefer if I weren't <star2>?
-- Perhaps I am <star2> in your fantasies.
-- Do you sometimes think I am <star2>?
+- Are you interested in whether I am <star> or not?
+- Would you prefer if I weren't <star>?
+- Perhaps I am <star> in your fantasies.
+- Do you sometimes think I am <star>?
 - Would it matter to you?
-- What if I were <star2>?
+- What if I were <star>?
 
 + you are *
-- What makes you think I am <star2>?
-- Does it please you to believe I am <star2>?
-- Do you sometimes wish you were <star2>?
-- Perhaps you would like to be <star2>.
+- What makes you think I am <star>?
+- Does it please you to believe I am <star>?
+- Do you sometimes wish you were <star>?
+- Perhaps you would like to be <star>.
 
 + * are *
 - Did you think they might not be <star2>?
@@ -444,16 +444,16 @@
 - Do you want my <star2>?
 
 + was i *
-- What if you were <star2>?
-- Do you think you were <star2>?
-- Were you <star2>?
-- What would it mean if you were <star2>?
-- What does '<star2>' suggest to you?
+- What if you were <star>?
+- Do you think you were <star>?
+- Were you <star>?
+- What would it mean if you were <star>?
+- What does '<star>' suggest to you?
 
 + i was *
 - Were you really?
-- Why do you tell me you were <star2> now?
-- Perhaps I already know you were <star2>.
+- Why do you tell me you were <star> now?
+- Perhaps I already know you were <star>.
 
 + [*] was you *
 - Would you like to believe I was <star2>?
@@ -463,18 +463,18 @@
 - What if I had been <star2>?
 
 + i (desire|want|need) *
-- What would it mean to you if you got <star3>?
-- Why do you want <star3>?
-- Suppose you got <star3> soon.
-- What if you never got <star3>?
-- What would getting <star3> mean to you?
-- What does wanting <star3> have to do with this discussion?
+- What would it mean to you if you got <star>?
+- Why do you want <star>?
+- Suppose you got <star> soon.
+- What if you never got <star>?
+- What would getting <star> mean to you?
+- What does wanting <star> have to do with this discussion?
 
 + i am (sad|unhappy|mad|angry|pissed|depressed) [*]
-- I am sorry to hear that you are <star2>.
-- Do you think coming here will help you not to be <star2>?
-- I'm sure it's not pleasant to be <star2>.
-- Can you explain what made you <star2>?
+- I am sorry to hear that you are <star>.
+- Do you think coming here will help you not to be <star>?
+- I'm sure it's not pleasant to be <star>.
+- Can you explain what made you <star>?
 
 + i am (happy|excited|glad) [*]
 - How have I helped you to be <star2>?
