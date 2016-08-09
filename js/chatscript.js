@@ -1,6 +1,7 @@
 var chatend="</div>";
 var chat="";
 $(document).ready(function(){
+	$(".chatinp").focus();
 	var res,reply="";
 	$.ajax({url: "http://localhost:8989/al.php",
 	 	success: function(result){
@@ -30,6 +31,18 @@ function ai(res){
 				var h = date.getHours();
 				var m = date.getMinutes();
 				reply="The Time is "+h+":"+m;
+				$("#chatview").animate({ scrollTop: $("#chatview").height() }, 1000);
+			}
+			if((str.indexOf("date")>=0)||(str.indexOf("Date")>=0)){
+				var date = new Date();
+				var h = date.getDate();
+				var m = date.getMonth()+1;
+				var y = date.getFullYear();
+				reply="The Date is "+h+"/"+m+"/"+y;
+				$("#chatview").animate({ scrollTop: $("#chatview").height() }, 1000);
+			}
+			if((str.indexOf("Math:")>=0)||(str.indexOf("Date")>=0)){
+				reply=eval(str.substring(5));
 				$("#chatview").animate({ scrollTop: $("#chatview").height() }, 1000);
 			}
 		}
