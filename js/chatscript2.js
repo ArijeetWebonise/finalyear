@@ -29,10 +29,12 @@ function loading_error (error) {
 function ai(inp){
     // Now the replies must be sorted!
     bot.sortReplies();
-    console.log(inp);
     // And now we're free to get a reply from the brain!
     var reply = bot.reply("local-user", inp);
+    var msg = new SpeechSynthesisUtterance(reply);
+    window.speechSynthesis.speak(msg);
     $("#chatview").append("<div id='chatarea' class='row reply'><b>Anchit</b>: " + reply+"</div>");
+    $(".chatinp").focus();
 }
 $(document).ready(function(){
     $(".chatinp").change(function(e){
